@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dinner Date</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main class="card" id="card">
+    <div class="blurb">
+      <h1 id="question">Will you go on a dinner date with me?</h1>
+       <img
+    id="mainImage"
+    src="images/please.jpg"
+    alt="Dinner Date"
+    class="image"
+/>
+    </div>
+
+    <div class="actions">
+      <button id="yesBtn" class="btn yes">YES</button>
+      <button id="noBtn" class="btn no">NO</button>
+    </div>
+
+    <div id="datePickerWrap" class="hidden">
+      <label for="dateInput">Pick a date for our dinner</label>
+      <input id="dateInput" type="date" />
+      <button id="confirmDateBtn" class="btn confirm">Confirm Date</button>
+    </div>
+
+    <p id="message" class="message"></p>
+  </main>
+
+  <!-- <div id="celebration" class="celebration hidden">
+    <img id="celebrationGif" src="images/dance.gif" alt="Celebration">
+
+    <h1>🎉 DINNER DATE</h1>
+
+    <h2>LET'S GOOOOO!! ❤️</h2>
+
+    <p>WOOOOOOOOO!!!!</p>
+</div> -->
+
+<div id="celebration" class="hidden">
+    <img id="celebrationGif" alt="Celebration" src="images/dance.gif">
+    <h1>🎉 DINNER DATE</h1>
+    <h2>LET'S GOOOOOOO!! ❤️</h2>
+    <p>WOOOOOOOOO!!!!</p>
+</div>
+
+  <script src="script.js"></script>
+</body>
+</html>
